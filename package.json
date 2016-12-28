@@ -1,0 +1,29 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Website to display porjects and portfolio of work.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZGrauer/Portfolio.git"
+  },
+  "author": "Zachary Grauerholz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ZGrauer/Portfolio/issues"
+  },
+  "homepage": "https://github.com/ZGrauer/Portfolio#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^1.0.2",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "imagemin-mozjpeg": "^6.0.0"
+  }
+}

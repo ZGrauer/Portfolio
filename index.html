@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Zach's Portfolio of Projects">
+    <title>Zach Grauerholz's Portfolio</title>
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css" >
+
+  </head>
+  <body>
+    <div class="container-fluid">
+      <header class="row dark-color">
+        <div class="col-xs-2 text-center">
+          <img class="logo-img" src="images/lappy_logo_100.png" alt="">
+        </div>
+        <div class="col-xs-10 text-right text-uppercase">
+          <h1 class="name">Zachary Grauerholz</h1>
+          <h2 class="title">Front-End Developer</h2>
+        </div>
+        <div class="col-xs-12">
+          <hr class="hr-color">
+        </div>
+      </header>
+
+      <nav class="navbar navbar-default">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav text-uppercase">
+              <li class="active"><a href="#">Projects</a></li>
+              <li><a href="work.html">Work Experience</a></li>
+              <li><a href="education.html">Education &amp; Skills</a></li>
+            </ul>
+          </div>
+      </nav>
+
+      <main class="row format-main">
+        <div class="row">
+          <picture>
+            <source media="(min-width: 991px)" srcset="images/code_shorter_landscape.jpg" >
+            <img class="col-xs-12 img-responsive" src="images/code_shorter_port.jpg" alt="Image of code on computer screen" >
+          </picture>
+        </div>
+
+        <div class="row">
+          <h3 class="col-xs-12 highlight-color page-heading">Featured Work</h3>
+        </div>
+
+        <section class="row text-center content">
+          <article class="col-md-4 pad-bottom">
+            <img class="img-responsive img-thumbnail modal-img" src="images/Movie-Site-550.jpg"
+            data-toggle="modal" data-target="#python-movie" alt="Python Movie Website" >
+            <h4 class="highlight-color proj-title">Python Movie Website</h4>
+            <a href="https://github.com/ZGrauer/Movie-Website" target="_blank">https://github.com/ZGrauer/Movie-Website</a>
+            <p class="project-summary">
+              Server-side Python class to store a list of favorite movies, populated with info from IMDB
+              and YouTube API queries.
+            </p>
+            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#python-movie" role="button">
+              Additional Info
+            </a>
+            <a href="fresh_tomatoes.html" class="btn btn-default" role="button">
+              View Output
+            </a>
+          </article>
+          <!-- TODO: add future projects -->
+          <article class="col-md-4 pad-bottom">
+            <img class="img-responsive img-thumbnail modal-img" src="http://placehold.it/500x400" alt="Project 2" >
+            <h4 class="highlight-color proj-title">Project 2</h4>
+            <a href="https://github.com/ZGrauer" target="_blank">https://github.com/ZGrauer</a>
+          </article>
+          <article class="col-md-4 pad-bottom">
+            <img class="img-responsive img-thumbnail modal-img" src="http://placehold.it/500x400" alt="Project 3" >
+            <h4 class="highlight-color proj-title">Project 3</h4>
+            <a href="https://github.com/ZGrauer" target="_blank">https://github.com/ZGrauer</a>
+          </article>
+        </section>
+
+      </main>
+    </div>
+
+    <!-- Modals -->
+    <div class="modal fade" id="python-movie" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog dark-color">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Python Movie Website</h4>
+                </div>
+                <div class="modal-body">
+                    <a href="fresh_tomatoes.html" target="_blank">
+                      <img class="modal-img img-responsive img-thumbnail center" src="./images/Movie-Site-800.jpg" alt="Python Movie Website " >
+                    </a>
+                    <p>
+                      Server-side Python class to store a list of favorite movies,
+                      including box art imagery, movie trailer URL, and other info.
+                      The code generates a static web page allowing visitors to browse movies.
+                      Click the image above to view the generated page.
+                    </p>
+                    <p>The Python code uses APIs for IMDB and YouTube to pull movie information
+                      and trailers.  Only the movie title needs specified in a list for it to be
+                      added to the page.
+                    </p>
+                    <p>
+                      GitHub Repository: <a href="https://github.com/ZGrauer/Movie-Website" target="_blank">https://github.com/ZGrauer/Movie-Website</a>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- TODO: add future project modals -->
+  </body>
+</html>
