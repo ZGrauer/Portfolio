@@ -31,9 +31,9 @@ $ grunt imagemin
 `imagemin` creates new, optimized versions of all images in the *src* folder. The new images are saved to folder *images*.
 
 ### Todos
-- [ ] add 2 additional projects, replacing Project 2 and Project
+- [ ] add 2 additional projects, replacing Project 2 and Project 3
 - [ ] hover effect for project thumbnail
-- [ ] Zocial GitHub and LinkedIn buttons in Contact aside
+- [X] Zocial GitHub and LinkedIn buttons in Contact aside
 
 ### License
 GNU GENERAL PUBLIC LICENSE
