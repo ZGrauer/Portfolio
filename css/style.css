@@ -113,22 +113,28 @@ article {
   padding-right: 5px;
 }
 
-.linkedin {
+.linkedin,
+.linkedin:visited {
   background-color: #0077b5;
   color: #fff;
 }
 
-.linkedin:hover {
+.linkedin:hover,
+.linkedin:active,
+.linkedin:focus {
   background-color: #00a0dc;
   color: #fff;
 }
 
-.github   {
+.github,
+.github:visited {
   background-color: #f5f5f5;
   color: #333;
 }
 
-.github:hover   {
+.github:hover,
+.github:active,
+.github:focus {
   background-color: #999;
   color: #333;
 }
