@@ -71,16 +71,29 @@
             <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#python-movie" role="button">
               Additional Info
             </a>
-            <a href="fresh_tomatoes.html" class="btn btn-default" role="button">
+            <a href="fresh_tomatoes.html" target="_blank" class="btn btn-default" role="button">
               View Output
             </a>
           </article>
           <!-- TODO: add future projects -->
           <article class="col-md-4 pad-bottom">
-            <img class="img-responsive img-thumbnail modal-img" src="http://placehold.it/400x285" alt="Project 2" >
-            <h4 class="highlight-color proj-title">Project 2</h4>
-            <a class="btn btn-primary github" href="https://github.com/ZGrauer" target="_blank">
+            <img class="img-responsive img-thumbnail modal-img" src="images/Blog-Post-550.jpg"
+            data-toggle="modal" data-target="#python-blog" alt="Personal Blog in Python" >
+            <h4 class="highlight-color proj-title">Personal Blog in Python</h4>
+            <a class="btn btn-primary github" href="https://github.com/ZGrauer/Python-Blog" target="_blank">
               <span class="brandico-github">Fork me on GitHub</span>
+            </a>
+            <p class="project-summary">
+              A personal blog for posting content with commenting and score system.
+              Built using Python for the backend, and runs on Google App Engine.
+              The Python server uses jinja2 for HTML templating and stores all site
+              data in Google Cloud Datastore.
+            </p>
+            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#python-blog" role="button">
+              Additional Info
+            </a>
+            <a href="https://zachs-blog-154712.appspot.com/" target="_blank" class="btn btn-default" role="button">
+              View Site
             </a>
           </article>
           <article class="col-md-4 pad-bottom">
@@ -118,6 +131,43 @@
                     </p>
                     <p>
                       GitHub Repository: <a href="https://github.com/ZGrauer/Movie-Website" target="_blank">https://github.com/ZGrauer/Movie-Website</a>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="python-blog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog dark-color">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Personal Blog in Python</h4>
+                </div>
+                <div class="modal-body">
+                    <a href="fresh_tomatoes.html" target="_blank">
+                      <img class="modal-img img-responsive img-thumbnail center" src="./images/Blog-550.jpg" alt="Python Movie Website " >
+                    </a>
+                    <p>
+                      A personal blog for posting content with commenting and score system.
+                      Built using Python for the backend, and runs on Google App Engine.
+                      The Python server uses jinja2 for HTML templating and stores all site
+                      data in Google Cloud Datastore.
+                    </p>
+                    <p>
+                      Both the user cookies and user database info are hashed for security.
+                      SHA-256 is used along with HMAC and salts. Anyone can create an account
+                      on the site, and emails are optional. An account is needed to post articles,
+                      add comments, or like posts.
+                    </p>
+                    <p>
+                      Users can edit or delete only their own posts but can comment on any post.
+                      In addition, users can only like or dislike other users posts. They cannot like their own.
+                      The post's score can be viewed on the right side of the screen.
+                    </p>
+                    <p>
+                      GitHub Repository: <a href="https://github.com/ZGrauer/Python-Blog" target="_blank">https://github.com/ZGrauer/Python-Blog</a>
                     </p>
                 </div>
                 <div class="modal-footer">
