@@ -114,6 +114,12 @@ article {
 }
 
 .linkedin,
+.github {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.linkedin,
 .linkedin:visited {
   background-color: #0077b5;
   color: #fff;
@@ -137,6 +143,17 @@ article {
 .github:focus {
   background-color: #999;
   color: #333;
+}
+
+.btn-svg {
+  display: inline-block;
+  height:20px;
+  width: 20px;
+}
+
+.github-fork {
+  padding-top: 7px;
+  padding-bottom: 7px
 }
 
 .page-heading {
@@ -167,7 +184,6 @@ article {
   letter-spacing:1px;
   margin: 20px 0;
 }
-
 
 /* Links */
 main a:hover {
