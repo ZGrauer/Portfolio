@@ -12,17 +12,16 @@
     <script src="js/bootstrap.min.js" defer></script>
   </head>
   <body>
-    <div class="container-fluid">
-      <header class="dark-color">
+    <div class="container-fluid dark-bg-color">
+      <header>
         <div class="row">
-          <div class="col-xs-12 text-right text-uppercase">
-            <h1 class="name">Zachary Grauerholz</h1>
-            <h2 class="title">Developer</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-12">
-            <hr class="hr-color">
+          <div class="col-xs-12 text-right text-uppercase no-padding">
+            <picture id="header-img">
+              <source media="(min-width: 991px)" srcset="images/code_shorter_landscape.jpg" >
+              <img class="col-xs-12 img-responsive" src="images/code_shorter_port.jpg" alt="Image of code on computer screen" >
+            </picture>
+            <h1 id="name">Zachary Grauerholz</h1>
+            <h2 id="title">Developer</h2>
           </div>
         </div>
       </header>
@@ -44,21 +43,11 @@
           </div>
       </nav>
 
-      <main class="row format-main">
-        <div class="row">
-          <picture>
-            <source media="(min-width: 991px)" srcset="images/code_shorter_landscape.jpg" >
-            <img class="col-xs-12 img-responsive" src="images/code_shorter_port.jpg" alt="Image of code on computer screen" >
-          </picture>
-        </div>
-
-        <div class="row">
-          <h3 class="col-xs-12 highlight-color page-heading">Education and Skills</h3>
-        </div>
-
+      <main class="format-main">
         <div class="row content">
           <section class="col-md-9">
-            <h5 class="degree">Bachelor of Science, Information Technology - Software</h5>
+            <h3 class="highlight-color page-heading">Education and Skills</h3>
+            <h4 class="degree">Bachelor of Science, Information Technology - Software</h4>
             <p>
       				I earned my bachelor’s in November 2016 from Western Governors University.
               I completed my bachelor’s degree in 14 months while working full-time.

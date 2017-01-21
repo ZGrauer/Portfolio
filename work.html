@@ -12,17 +12,16 @@
     <script src="js/bootstrap.min.js" defer></script>
   </head>
   <body>
-    <div class="container-fluid">
-      <header class="dark-color">
+    <div class="container-fluid dark-bg-color">
+      <header>
         <div class="row">
-          <div class="col-xs-12 text-right text-uppercase">
-            <h1 class="name">Zachary Grauerholz</h1>
-            <h2 class="title">Developer</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-12">
-            <hr class="hr-color">
+          <div class="col-xs-12 text-right text-uppercase no-padding">
+            <picture id="header-img">
+              <source media="(min-width: 991px)" srcset="images/code_shorter_landscape.jpg" >
+              <img class="col-xs-12 img-responsive" src="images/code_shorter_port.jpg" alt="Image of code on computer screen" >
+            </picture>
+            <h1 id="name">Zachary Grauerholz</h1>
+            <h2 id="title">Developer</h2>
           </div>
         </div>
       </header>
@@ -45,54 +44,49 @@
       </nav>
 
       <main class="row format-main">
-        <div class="row">
-          <picture>
-            <source media="(min-width: 991px)" srcset="images/code_shorter_landscape.jpg" >
-            <img class="col-xs-12 img-responsive" src="images/code_shorter_port.jpg" alt="Image of code on computer screen" >
-          </picture>
-        </div>
 
-        <div class="row">
-          <h3 class="col-xs-12 highlight-color page-heading">Work Histroy</h3>
-        </div>
 
         <div class="row content">
           <section class="col-md-9">
-            <article>
-              <h4 class="highlight-color section-title">Overview</h4>
-        			<p>
-                Technical Project Manager with 9+ years of telecommunications and
-                software development experience with a BS in IT - Software. Efficient team player
-                who streamlines processes and engineers automation tools to empower users,
-                delivering measureable time and monetary savings
-              </p>
-              <p>
-        				I am a part of Sprint's Enhanced Services Sales Support team which maintains
-                business customers' legacy voice products, such as toll-free, voice
-                <abbr title="Virtual Private Network">VPN</abbr>, and long distance.
-                We also support <abbr title="Session Initiation Protocol">SIP</abbr>
-                toll-free services by building complex customer routing and
-                 <abbr title="Interactive voice response">IVRs</abbr>. I am a subject
-                 matter expert on complex toll-free routing for our
-                <abbr title="Time Division Multiplexing">TDM</abbr> voice platform and products.
-        			</p>
-            </article>
-            <article>
-              <h4 class="highlight-color section-title">Automation Program</h4>
-        			<p>
-        				My biggest role is spearheading an automation program utilizing VBScript
-                and <abbr title="Visual Basic for Applications">VBA</abbr> for 3 teams in Sprint.
-                I automate processes in mainframe systems to reduce headcount and ensure error
-                free maintenance. The program saved at a minimum <em>3,950 hours</em> of work hours
-                in the past year when compared to manual keying of orders.
-        			</p>
-        			<p>
-        				Once <abbr title="User Acceptance Testing">UAT</abbr> testing of scripts
-                is complete, they are disseminated from network storage to users via an update
-                application I wrote in C#.  The .NET application downloads any updated
-                files since their last update and ensures users files are up-to-date.
-        			</p>
-            </article>
+            <h3 class="highlight-color page-heading">Work Histroy</h3>
+            <div class="row">
+              <article class="col-md-6">
+                <h4 class="highlight-color section-title">Overview</h4>
+          			<p>
+                  Technical Project Manager with 9+ years of telecommunications and
+                  software development experience with a BS in IT - Software. Efficient team player
+                  who streamlines processes and engineers automation tools to empower users,
+                  delivering measureable time and monetary savings
+                </p>
+                <p>
+          				I am a part of Sprint's Enhanced Services Sales Support team which maintains
+                  business customers' legacy voice products, such as toll-free, voice
+                  <abbr title="Virtual Private Network">VPN</abbr>, and long distance.
+                  We also support <abbr title="Session Initiation Protocol">SIP</abbr>
+                  toll-free services by building complex customer routing and
+                   <abbr title="Interactive voice response">IVRs</abbr>. I am a subject
+                   matter expert on complex toll-free routing for our
+                  <abbr title="Time Division Multiplexing">TDM</abbr> voice platform and products.
+          			</p>
+              </article>
+              <article class="col-md-6">
+                <h4 class="highlight-color section-title">Automation Program</h4>
+          			<p>
+          				My biggest role is spearheading an automation program utilizing VBScript
+                  and <abbr title="Visual Basic for Applications">VBA</abbr> for 3 teams in Sprint.
+                  I automate processes in mainframe systems to reduce headcount and ensure error
+                  free maintenance. The program saved at a minimum <em>3,950 hours</em> of work hours
+                  in the past year when compared to manual keying of orders.
+          			</p>
+          			<p>
+          				Once <abbr title="User Acceptance Testing">UAT</abbr> testing of scripts
+                  is complete, they are disseminated from network storage to users via an update
+                  application I wrote in C#.  The .NET application downloads any updated
+                  files since their last update and ensures users files are up-to-date.
+          			</p>
+              </article>
+            </div>
+
             <article>
               <h4 class="highlight-color section-title">Successes</h4>
               <div class="row">

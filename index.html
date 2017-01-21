@@ -13,17 +13,16 @@
     <script src="js/custom.js" defer></script>
   </head>
   <body>
-    <div class="container-fluid">
-      <header class="dark-color">
+    <div class="container-fluid dark-bg-color">
+      <header>
         <div class="row">
-          <div class="col-xs-12 text-right text-uppercase">
-            <h1 class="name">Zachary Grauerholz</h1>
-            <h2 class="title">Developer</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-12">
-            <hr class="hr-color">
+          <div class="col-xs-12 text-right text-uppercase no-padding">
+            <picture id="header-img">
+              <source media="(min-width: 991px)" srcset="images/code_shorter_landscape.jpg" >
+              <img class="col-xs-12 img-responsive" src="images/code_shorter_port.jpg" alt="Image of code on computer screen" >
+            </picture>
+            <h1 id="name">Zachary Grauerholz</h1>
+            <h2 id="title">Developer</h2>
           </div>
         </div>
       </header>
@@ -45,91 +44,124 @@
           </div>
       </nav>
 
-      <main class="row format-main">
-        <div class="row">
-          <picture>
-            <source media="(min-width: 991px)" srcset="images/code_shorter_landscape.jpg" >
-            <img class="col-xs-12 img-responsive" src="images/code_shorter_port.jpg" alt="Image of code on computer screen" >
-          </picture>
-        </div>
+      <main class="format-main">
+        <section class="content">
+          <div class="row">
+            <h3 class="col-xs-12 highlight-color page-heading">Featured Work</h3>
+          </div>
+          <div class="row">
+            <article class="col-md-4 pad-bottom text-center">
+              <!-- Img hover overlay. Links to modal with additional info on project -->
+              <div class="hov-img-container">
+                  <img class="img-responsive img-thumbnail modal-img" src="images/Item-Catalog-550.jpg" alt="Item Catalog Additional Info" >
+                <div class="hov-middle">
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <a href="#" class="btn btn-info" data-toggle="modal" data-target="#item-catalog" role="button" >
+                        More Info
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <a href="http://itemcatalog.us-west-2.elasticbeanstalk.com/" target="_blank" class="btn btn-primary margin-top-10" role="button" >
+                        View Site
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-        <div class="row">
-          <h3 class="col-xs-12 highlight-color page-heading">Featured Work</h3>
-        </div>
+              <h4 class="highlight-color proj-title" data-toggle="modal" data-target="#item-catalog">Item Catalog</h4>
+              <div>
+                <span class="project-skill">OAuth 2.0</span>
+                <span class="project-skill">Flask</span>
+                <span class="project-skill">Python</span>
+              </div>
+              <p class="project-summary">
+                Allows users to register and login using <a href="https://oauth.net/2/" target="_blank">OAuth 2.0</a> providers Google and Facebook so they
+                can create lists of items in distinct categories. All categories and items are
+                viewable but they can only be added to, edited, or deleted by the user who created them.
+              </p>
+              <a class="btn btn-primary margin-top-10 github github-fork" href="https://github.com/ZGrauer/Item-Catalog" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Fork me on GitHub">
+                <img src="./images/github.svg" alt="Fork on GitHub" class="btn-svg" /> Fork me
+              </a>
+            </article>
 
-        <section class="row text-center content">
-          <article class="col-md-4 pad-bottom">
-            <img class="img-responsive img-thumbnail modal-img" src="images/Item-Catalog-550.jpg" alt="Item Catalog"
-            data-toggle="modal" data-target="#item-catalog" alt="Item Catalog Additional Info" >
-            <h4 class="highlight-color proj-title">Item Catalog</h4>
-            <div>
-              <span class="project-skill">OAuth 2.0</span>
-              <span class="project-skill">Flask</span>
-              <span class="project-skill">Python</span>
-            </div>
-            <p class="project-summary">
-              Allows users to register and login using <a href="https://oauth.net/2/" target="_blank">OAuth 2.0</a> providers Google and Facebook so they
-              can create lists of items in distinct categories. All categories and items are
-              viewable but they can only be added to, edited, or deleted by the user who created them.
-            </p>
-            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#item-catalog" role="button">
-              Additional Info
-            </a>
-            <a href="http://itemcatalog.us-west-2.elasticbeanstalk.com/" target="_blank" class="btn btn-default" role="button" >
-              View Site
-            </a>
-            <a class="btn btn-primary github github-fork" href="https://github.com/ZGrauer/Item-Catalog" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Fork me on GitHub">
-              <img src="./images/github.svg" alt="Fork on GitHub" class="btn-svg" /> Fork me
-            </a>
-          </article>
-          <article class="col-md-4 pad-bottom">
-            <img class="img-responsive img-thumbnail modal-img" src="images/Blog-Post-550.jpg"
-            data-toggle="modal" data-target="#python-blog" alt="Personal Blog in Python" >
-            <h4 class="highlight-color proj-title">Multi-User Blog</h4>
-            <div>
-              <span class="project-skill">Bootstrap</span>
-              <span class="project-skill">Google App Engine</span>
-              <span class="project-skill">Python</span>
-            </div>
-            <p class="project-summary">
-              A personal blog for posting content with commenting and score system.
-              Built using Python for the backend server, and runs on <a href="https://cloud.google.com/appengine/" target="_blank">Google App Engine</a>.
-              The Python server uses <a href="http://jinja.pocoo.org/" target="_blank">jinja2</a> for HTML templating and stores all site
-              data in <a href="https://cloud.google.com/datastore/docs/concepts/overview" target="_blank">Google Cloud Datastore</a>.
-            </p>
-            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#python-blog" role="button">
-              Additional Info
-            </a>
-            <a href="https://zachs-blog-154712.appspot.com/" target="_blank" class="btn btn-default" role="button">
-              View Site
-            </a>
-            <a class="btn btn-primary github github-fork" href="https://github.com/ZGrauer/Python-Blog" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Fork me on GitHub">
-              <img src="./images/github.svg" alt="Fork on GitHub" class="btn-svg" /> Fork me
-            </a>
-          </article>
-          <article class="col-md-4 pad-bottom">
-            <img class="img-responsive img-thumbnail modal-img" src="images/Movie-Site-550.jpg"
-            data-toggle="modal" data-target="#python-movie" alt="Python Movie Website" >
-            <h4 class="highlight-color proj-title">Python Movie Website</h4>
-            <div>
-              <span class="project-skill">HTML</span>
-              <span class="project-skill">CSS</span>
-              <span class="project-skill">Python</span>
-            </div>
-            <p class="project-summary">
-              Server-side Python class to store a list of favorite movies, populated with info from IMDB
-              and YouTube API queries.  The class generates the HTML page from the queries.
-            </p>
-            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#python-movie" role="button">
-              Additional Info
-            </a>
-            <a href="fresh_tomatoes.html" target="_blank" class="btn btn-default" role="button">
-              View Site
-            </a>
-            <a class="btn btn-primary github github-fork" href="https://github.com/ZGrauer/Movie-Website" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Fork me on GitHub">
-              <img src="./images/github.svg" alt="Fork on GitHub" class="btn-svg" /> Fork me
-            </a>
-          </article>
+            <article class="col-md-4 pad-bottom text-center">
+              <!-- Img hover overlay. Links to modal with additional info on project -->
+              <div class="hov-img-container">
+                <img class="img-responsive img-thumbnail modal-img" src="images/Blog-Post-550.jpg" alt="Personal Blog in Python" >
+                <div class="hov-middle">
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <a href="#" class="btn btn-info" data-toggle="modal" data-target="#python-blog" role="button" >
+                        More Info
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <a href="https://zachs-blog-154712.appspot.com/" target="_blank" class="btn btn-primary margin-top-10" role="button">
+                        View Site
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h4 class="highlight-color proj-title" data-toggle="modal" data-target="#python-blog">Multi-User Blog</h4>
+              <div>
+                <span class="project-skill">Bootstrap</span>
+                <span class="project-skill">Google App Engine</span>
+                <span class="project-skill">Python</span>
+              </div>
+              <p class="project-summary">
+                A personal blog for posting content with commenting and score system.
+                Built using Python for the backend server, and runs on <a href="https://cloud.google.com/appengine/" target="_blank">Google App Engine</a>.
+                The Python server uses <a href="http://jinja.pocoo.org/" target="_blank">jinja2</a> for HTML templating and stores all site
+                data in <a href="https://cloud.google.com/datastore/docs/concepts/overview" target="_blank">Google Cloud Datastore</a>.
+              </p>
+              <a class="btn btn-primary margin-top-10 github github-fork" href="https://github.com/ZGrauer/Python-Blog" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Fork me on GitHub">
+                <img src="./images/github.svg" alt="Fork on GitHub" class="btn-svg" /> Fork me
+              </a>
+            </article>
+
+            <article class="col-md-4 pad-bottom text-center">
+              <!-- Img hover overlay. Links to modal with additional info on project -->
+              <div class="hov-img-container">
+                <img class="img-responsive img-thumbnail modal-img" src="images/Movie-Site-550.jpg" alt="Python Movie Website" >
+                <div class="hov-middle">
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <a href="#" class="btn btn-info" data-toggle="modal" data-target="#python-movie" role="button" >
+                        More Info
+                      </a>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-xs-12">
+                      <a href="fresh_tomatoes.html" target="_blank" class="btn btn-primary margin-top-10" role="button">
+                        View Site
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <h4 class="highlight-color proj-title" data-toggle="modal" data-target="#python-movie">Python Movie Website</h4>
+              <div>
+                <span class="project-skill">HTML</span>
+                <span class="project-skill">CSS</span>
+                <span class="project-skill">Python</span>
+              </div>
+              <p class="project-summary">
+                Server-side Python class to store a list of favorite movies, populated with info from IMDB
+                and YouTube API queries.  The class generates the HTML page from the queries.
+              </p>
+              <a class="btn btn-primary margin-top-10 github github-fork" href="https://github.com/ZGrauer/Movie-Website" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Fork me on GitHub">
+                <img src="./images/github.svg" alt="Fork on GitHub" class="btn-svg" /> Fork me
+              </a>
+            </article>
+          </div>
           <!-- TODO: add future projects -->
         </section>
 
@@ -137,11 +169,11 @@
     </div>
 
     <!-- Modals -->
-    <div class="modal fade" id="python-movie" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal fade" id="python-movie" tabindex="-1" role="dialog" aria-labelledby="movieModalLabel" aria-hidden="true">
         <div class="modal-dialog dark-color">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">Python Movie Website</h4>
+                    <h4 class="modal-title" id="movieModalLabel">Python Movie Website</h4>
                 </div>
                 <div class="modal-body">
                     <a href="fresh_tomatoes.html" target="_blank">
@@ -172,11 +204,11 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" id="python-blog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal fade" id="python-blog" tabindex="-1" role="dialog" aria-labelledby="blogModalLabel" aria-hidden="true">
         <div class="modal-dialog dark-color">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">Multi-User Blog</h4>
+                    <h4 class="modal-title" id="blogModalLabel">Multi-User Blog</h4>
                 </div>
                 <div class="modal-body">
                     <a href="https://zachs-blog-154712.appspot.com/" target="_blank">
@@ -216,11 +248,11 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" id="item-catalog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal fade" id="item-catalog" tabindex="-1" role="dialog" aria-labelledby="itemModalLabel" aria-hidden="true">
         <div class="modal-dialog dark-color">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">Item Catalog Web App</h4>
+                    <h4 class="modal-title" id="itemModalLabel">Item Catalog Web App</h4>
                 </div>
                 <div class="modal-body">
                     <a href="http://itemcatalog.us-west-2.elasticbeanstalk.com/" target="_blank">
