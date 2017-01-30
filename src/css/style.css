@@ -1,57 +1,53 @@
 /* --Header-- */
+
 header {
-  margin-left: -15px;
-  margin-right: -15px;
+    margin-left: -15px;
+    margin-right: -15px;
 }
 
+
 /* Places name and title over header image */
+
 #name {
-  position: absolute;
-  top: 15%;
-  right: 30px;
-  width: 100%;
-  font-size: 50px;
-  font-weight: 400;
-  letter-spacing:3px;
-  color: #eee;
-  text-shadow:
-       2px 2px 0 #000,
-     -1px -1px 0 #000,
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000;
+    position: absolute;
+    top: 15%;
+    right: 30px;
+    width: 100%;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #eee;
+    text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 #title {
-  position: absolute;
-  top: 50%;
-  right: 30px;
-  width: 100%;
-  font-size: 34px;
-  font-weight: 300;
-  letter-spacing:2px;
-  color: #eee;
-  text-shadow:
-       2px 2px 0 #000,
-     -1px -1px 0 #000,
-      1px -1px 0 #000,
-      -1px 1px 0 #000,
-       1px 1px 0 #000;
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    width: 100%;
+    font-size: 34px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #eee;
+    text-shadow: 2px 2px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
+
 /* image fill header and change opacity */
+
 #header-img {
-  position: relative;
-  width: 100%;
-  opacity: 0.6;
+    position: relative;
+    width: 100%;
+    opacity: 0.6;
 }
 
 
 /* --Navigation-- */
+
 .navbar {
-  margin-bottom: 0;
-  margin-left: -15px;
-  margin-right: -15px;
+    margin-bottom: 0;
+    margin-left: -15px;
+    margin-right: -15px;
 }
 
 .navbar-collapse {
@@ -67,12 +63,11 @@ header {
     color: #e5e4e4;
 }
 
-.navbar-default .navbar-brand:hover,
-.navbar-default .navbar-brand:focus {
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
     color: #eee;
 }
 
-.navbar-default .navbar-nav > li > a {
+.navbar-default .navbar-nav>li>a {
     color: #e5e4e4;
     font-size: 18px;
     font-weight: 400;
@@ -80,51 +75,45 @@ header {
     padding-right: 20px;
     text-shadow: 1px 1px 1px #000;
 }
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
     color: #eee;
     background-color: #464646;
 }
 
-.navbar-default .navbar-nav > .active > a,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
     color: #eee;
     background-color: #313131;
 }
 
-.navbar-default .navbar-nav > .open > a,
-.navbar-default .navbar-nav > .open > a:hover,
-.navbar-default .navbar-nav > .open > a:focus {
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
     color: #e2c08d;
     background-color: #274d4c;
 }
 
-.navbar-default .navbar-nav > .dropdown > a .caret {
+.navbar-default .navbar-nav>.dropdown>a .caret {
     border-top-color: #777;
     border-bottom-color: #777;
 }
 
-.navbar-default .navbar-nav > .dropdown > a:hover .caret,
-.navbar-default .navbar-nav > .dropdown > a:focus .caret {
+.navbar-default .navbar-nav>.dropdown>a:hover .caret, .navbar-default .navbar-nav>.dropdown>a:focus .caret {
     border-top-color: #333;
     border-bottom-color: #333;
 }
 
-.navbar-default .navbar-nav > .open > a .caret,
-.navbar-default .navbar-nav > .open > a:hover .caret,
-.navbar-default .navbar-nav > .open > a:focus .caret {
+.navbar-default .navbar-nav>.open>a .caret, .navbar-default .navbar-nav>.open>a:hover .caret, .navbar-default .navbar-nav>.open>a:focus .caret {
     border-top-color: #555;
     border-bottom-color: #555;
 }
 
+
 /* Nav mobile version */
+
 .navbar-default .navbar-toggle {
     border-color: #DDD;
 }
 
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
     background-color: #274d4c;
 }
 
@@ -134,18 +123,20 @@ header {
 
 
 /* --Links-- */
+
 main a:hover {
-  color: #e2c08d;
+    color: #e2c08d;
 }
 
 a {
-  color: #59c;
+    color: #59c;
 }
 
 
 /* --Main Content Size, Padding, Margins-- */
+
 html {
-  background-color: #274d4c;
+    background-color: #274d4c;
 }
 
 body {
@@ -159,267 +150,262 @@ body {
 }
 
 .format-main {
-  margin-left: 0;
-  margin-right: 0;
-  background-color: #111514;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #111514;
 }
 
 article {
-  padding: 0 10px;
+    padding: 0 10px;
 }
 
 .no-padding {
-  padding: 0;
+    padding: 0;
 }
 
 .margin-top-10 {
-  margin-top: 10px;
+    margin-top: 10px;
 }
 
 .content {
-  padding: 20px;
+    padding: 20px;
 }
 
 .project-summary {
-  padding-top: 20px;
-  text-align: left;
+    padding-top: 20px;
+    text-align: left;
 }
 
 .project-skill {
-  margin: 10px 15px 10px 0;
-  letter-spacing: 1px;
-  font-weight: 400;
-  text-align: left;
-  color: #ff6347;
+    margin: 10px 15px 10px 0;
+    letter-spacing: 1px;
+    font-weight: 400;
+    text-align: left;
+    color: #ff6347;
 }
 
 .pad-bottom {
-  padding-bottom: 30px;
+    padding-bottom: 30px;
 }
 
+
 /* image hover overlay */
+
 .hov-img-container {
-  position:relative;
+    position: relative;
 }
 
 .modal-img {
-  width: 100%;
-  vertical-align: top;
-  opacity: 1;
-  transition: .5s ease;
-  backface-visibility: hidden;
+    width: 100%;
+    vertical-align: top;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
 
 .hov-middle {
-  transition: .5s ease;
-  opacity: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%)
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
 }
 
 .hov-img-container:hover .modal-img {
-  opacity: 0.6;
+    opacity: 0.6;
 }
 
 .hov-img-container:hover .hov-middle {
-  opacity: 1;
+    opacity: 1;
 }
 
 
 /* --Colors-- */
+
 .highlight-color {
-  color: #e2c08d;
+    color: #e2c08d;
 }
 
 .dark-color {
-  color: #111514;
+    color: #111514;
 }
 
 .dark-bg-color {
-  background-color: #111514;
+    background-color: #111514;
 }
 
 
 /* --Headings and Typography-- */
+
 .page-heading {
-  font-size: 28px;
-  font-weight: 400;
-  letter-spacing: 2px;
-  margin: 20px 10px;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin: 20px 10px;
 }
 
 .section-title {
-  font-size: 24px;
-  font-weight: 300;
-  letter-spacing:2px;
-  margin: 20px 0;
+    font-size: 24px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin: 20px 0;
 }
 
 .proj-title {
-  font-size: 26px;
-  font-weight: 300;
-  letter-spacing:2px;
-  margin: 20px 5px 5px 5px;
-  cursor: pointer; cursor: hand;
+    font-size: 26px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin: 20px 5px 5px 5px;
+    cursor: pointer;
+    cursor: hand;
 }
 
-.work-proj-title,
-.degree {
-  font-size: 20px;
-  font-weight: 300;
-  letter-spacing:1px;
-  margin: 20px 0;
+.work-proj-title, .degree {
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin: 20px 0;
 }
+
 
 /* GitHub and Linkedin SVG buttons */
-.linkedin,
-.github {
-  padding-top: 10px;
-  padding-bottom: 10px;
+
+.linkedin, .github {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.linkedin,
-.linkedin:visited {
-  background-color: #0077b5;
-  color: #fff;
+.linkedin, .linkedin:visited, .linkedin-colors {
+    background-color: #0077b5;
+    color: #fff;
 }
 
-.linkedin:hover,
-.linkedin:active,
-.linkedin:focus {
-  background-color: #00a0dc;
-  color: #fff;
+.linkedin:hover, .linkedin:active, .linkedin:focus {
+    background-color: #00a0dc;
+    color: #fff;
 }
 
-.github,
-.github:visited {
-  background-color: #f5f5f5;
-  color: #333;
+.github, .github:visited, .github-colors {
+    background-color: #f5f5f5;
+    color: #333;
 }
 
-.github:hover,
-.github:active,
-.github:focus {
-  background-color: #999;
-  color: #333;
+.github:hover, .github:active, .github:focus {
+    background-color: #999;
+    color: #333;
 }
 
 .btn-svg {
-  display: inline-block;
-  height:20px;
-  width: 20px;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-color: : #111514;
+}
+
+.nav-svg {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+}
+
+#github-badge, #linkedin-badge {
+    margin-top: 12px;
+    margin-right: 15px;
 }
 
 .github-fork {
-  padding-top: 7px;
-  padding-bottom: 7px
+    padding-top: 7px;
+    padding-bottom: 7px
 }
 
 
 /* --Panels & Tables-- */
+
 .panel {
-  background-color: #111514;
-  max-width: 80%;
+    background-color: #111514;
+    max-width: 80%;
 }
 
 .panel-default>.panel-heading {
-  background-color: #555;
-  color: inherit;
-  font-size: 18px;
-  letter-spacing: 1px;
+    background-color: #555;
+    color: inherit;
+    font-size: 18px;
+    letter-spacing: 1px;
 }
 
 th {
-  letter-spacing: 1px;
-  font-weight: 300;
-  font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    font-size: 18px;
 }
 
 
 /* Media queries for screen size  */
+
 @media only screen and (max-width: 990px) {
-  h1,
-  h2,
-  h3,
-  h4 {
-    letter-spacing:1px;
-  }
-
-  #name {
-    font-size: 44px;
-    font-weight: 500;
-  }
-
-  #title {
-    font-size: 30px;
-  }
-
-  .nav>li>a {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
-  .table-hide-col {
-    display: none;
-  }
+    h1, h2, h3, h4 {
+        letter-spacing: 1px;
+    }
+    #name {
+        font-size: 44px;
+        font-weight: 500;
+    }
+    #title {
+        font-size: 30px;
+    }
+    .nav>li>a {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .table-hide-col {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 640px) {
-  #name {
-    font-size: 32px;
-  }
-
-  #title {
-    font-size: 24px;
-  }
-
-  .page-heading {
-    font-size: 24px;
-  }
-
-  .section-title {
-    font-size: 22px;
-  }
-
-  .proj-title  {
-    font-size: 18px;
-  }
-
-  .work-proj-title,
-  .degree {
-    font-size: 18px;
-    font-weight: 400;
-  }
+    #name {
+        font-size: 32px;
+    }
+    #title {
+        font-size: 24px;
+    }
+    .page-heading {
+        font-size: 24px;
+    }
+    .section-title {
+        font-size: 22px;
+    }
+    .proj-title {
+        font-size: 18px;
+    }
+    .work-proj-title, .degree {
+        font-size: 18px;
+        font-weight: 400;
+    }
 }
 
 @media only screen and (max-width: 480px) {
-  #name {
-    font-size: 23px;
-    top: 5%;
-  }
-
-  #title {
-    font-size: 20px;
-    top: 40%;
-  }
-
-  .page-heading {
-    font-size: 22px;
-  }
-
-  .section-title {
-    font-size: 20px;
-  }
-
-  .proj-title  {
-    font-size: 18px;
-  }
-
-  .navbar-default .navbar-nav > li > a {
-      font-size: 16px;
-      font-weight: 300;
-  }
+    #name {
+        font-size: 23px;
+        top: 5%;
+    }
+    #title {
+        font-size: 20px;
+        top: 40%;
+    }
+    .page-heading {
+        font-size: 22px;
+    }
+    .section-title {
+        font-size: 20px;
+    }
+    .proj-title {
+        font-size: 18px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        font-size: 16px;
+        font-weight: 300;
+    }
 }

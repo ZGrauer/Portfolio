@@ -1,171 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Zach's Portfolio of Projects">
     <title>Zach Grauerholz's Portfolio</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.min.css" >
+    <link rel="stylesheet" href="css/style.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" defer></script>
     <script src="js/bootstrap.min.js" defer></script>
     <script src="js/custom.js" defer></script>
-  </head>
-  <body>
+</head>
+
+<body>
     <div class="container-fluid dark-bg-color">
-      <header>
-        <div class="row">
-          <div class="col-xs-12 text-right text-uppercase no-padding">
-            <picture id="header-img">
-              <source media="(min-width: 991px)" srcset="images/code_shorter_landscape.jpg" >
-              <img class="col-xs-12 img-responsive" src="images/code_shorter_port.jpg" alt="Image of code on computer screen" >
-            </picture>
-            <h1 id="name">Zachary Grauerholz</h1>
-            <h2 id="title">Developer</h2>
-          </div>
-        </div>
-      </header>
-
-      <nav class="navbar navbar-default">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          </div>
-          <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav text-uppercase">
-              <li class="active"><a href="#">Projects</a></li>
-              <li><a href="work.html">Work Experience</a></li>
-              <li><a href="education.html">Education &amp; Skills</a></li>
-            </ul>
-          </div>
-      </nav>
-
-      <main class="format-main">
-        <section class="content">
-          <div class="row">
-            <h3 class="col-xs-12 highlight-color page-heading">Featured Work</h3>
-          </div>
-          <div class="row">
-            <article class="col-md-4 pad-bottom text-center">
-              <!-- Img hover overlay. Links to modal with additional info on project -->
-              <div class="hov-img-container">
-                  <img class="img-responsive img-thumbnail modal-img" src="images/Item-Catalog-550.jpg" alt="Item Catalog Additional Info" >
-                <div class="hov-middle">
-                  <div class="row">
-                    <div class="col-xs-12">
-                      <a href="#" class="btn btn-info" data-toggle="modal" data-target="#item-catalog" role="button" >
-                        More Info
-                      </a>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-xs-12">
-                      <a href="http://itemcatalog.us-west-2.elasticbeanstalk.com/" target="_blank" class="btn btn-primary margin-top-10" role="button" >
-                        View Site
-                      </a>
-                    </div>
-                  </div>
+        <header>
+            <div class="row">
+                <div class="col-xs-12 text-right text-uppercase no-padding">
+                    <picture id="header-img">
+                        <source media="(min-width: 991px)" srcset="images/code_shorter_landscape.jpg">
+                        <img class="col-xs-12 img-responsive" src="images/code_shorter_port.jpg" alt="Image of code on computer screen">
+                    </picture>
+                    <h1 id="name">Zachary Grauerholz</h1>
+                    <h2 id="title">Developer</h2>
                 </div>
-              </div>
+            </div>
+        </header>
 
-              <h4 class="highlight-color proj-title" data-toggle="modal" data-target="#item-catalog">Item Catalog</h4>
-              <div>
-                <span class="project-skill">OAuth 2.0</span>
-                <span class="project-skill">Flask</span>
-                <span class="project-skill">Python</span>
-              </div>
-              <p class="project-summary">
-                Allows users to register and login using <a href="https://oauth.net/2/" target="_blank">OAuth 2.0</a> providers Google and Facebook so they
-                can create lists of items in distinct categories. All categories and items are
-                viewable but they can only be added to, edited, or deleted by the user who created them.
-              </p>
-              <a class="btn btn-primary margin-top-10 github github-fork" href="https://github.com/ZGrauer/Item-Catalog" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Fork me on GitHub">
-                <img src="./images/github.svg" alt="Fork on GitHub" class="btn-svg" /> Fork me
-              </a>
-            </article>
-
-            <article class="col-md-4 pad-bottom text-center">
-              <!-- Img hover overlay. Links to modal with additional info on project -->
-              <div class="hov-img-container">
-                <img class="img-responsive img-thumbnail modal-img" src="images/Blog-Post-550.jpg" alt="Personal Blog in Python" >
-                <div class="hov-middle">
-                  <div class="row">
-                    <div class="col-xs-12">
-                      <a href="#" class="btn btn-info" data-toggle="modal" data-target="#python-blog" role="button" >
-                        More Info
-                      </a>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-xs-12">
-                      <a href="https://zachs-blog-154712.appspot.com/" target="_blank" class="btn btn-primary margin-top-10" role="button">
-                        View Site
-                      </a>
-                    </div>
-                  </div>
+        <nav class="navbar navbar-default">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-left text-uppercase">
+                    <li class="active"><a href="#">Projects</a></li>
+                    <li><a href="work.html">Work Experience</a></li>
+                    <li><a href="education.html">Education &amp; Skills</a></li>
+                </ul>
+                <div class="navbar-right">
+                    <span class="badge linkedin-colors" id="linkedin-badge" >
+                        <a href="https://www.linkedin.com/in/zachary-grauerholz-b2b516a5" target="_blank" >
+                            <img src="./images/linkedin.svg" alt="Linkedin profile" class="nav-svg" />
+                        </a>
+                    </span>
+                    <span class="badge github-colors" id="github-badge">
+                        <a href="https://github.com/ZGrauer/" target="_blank">
+                            <img src="./images/github.svg" alt="GitHub profile" class="nav-svg" />
+                        </a>
+                    </span>
                 </div>
-              </div>
-              <h4 class="highlight-color proj-title" data-toggle="modal" data-target="#python-blog">Multi-User Blog</h4>
-              <div>
-                <span class="project-skill">Bootstrap</span>
-                <span class="project-skill">Google App Engine</span>
-                <span class="project-skill">Python</span>
-              </div>
-              <p class="project-summary">
-                A personal blog for posting content with commenting and score system.
-                Built using Python for the backend server, and runs on <a href="https://cloud.google.com/appengine/" target="_blank">Google App Engine</a>.
-                The Python server uses <a href="http://jinja.pocoo.org/" target="_blank">jinja2</a> for HTML templating and stores all site
-                data in <a href="https://cloud.google.com/datastore/docs/concepts/overview" target="_blank">Google Cloud Datastore</a>.
-              </p>
-              <a class="btn btn-primary margin-top-10 github github-fork" href="https://github.com/ZGrauer/Python-Blog" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Fork me on GitHub">
-                <img src="./images/github.svg" alt="Fork on GitHub" class="btn-svg" /> Fork me
-              </a>
-            </article>
+            </div>
+        </nav>
 
-            <article class="col-md-4 pad-bottom text-center">
-              <!-- Img hover overlay. Links to modal with additional info on project -->
-              <div class="hov-img-container">
-                <img class="img-responsive img-thumbnail modal-img" src="images/Movie-Site-550.jpg" alt="Python Movie Website" >
-                <div class="hov-middle">
-                  <div class="row">
-                    <div class="col-xs-12">
-                      <a href="#" class="btn btn-info" data-toggle="modal" data-target="#python-movie" role="button" >
-                        More Info
-                      </a>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-xs-12">
-                      <a href="fresh_tomatoes.html" target="_blank" class="btn btn-primary margin-top-10" role="button">
-                        View Site
-                      </a>
-                    </div>
-                  </div>
+        <main class="format-main">
+            <section class="content">
+                <div class="row">
+                    <h3 class="col-xs-12 highlight-color page-heading">Featured Work</h3>
                 </div>
-              </div>
-              <h4 class="highlight-color proj-title" data-toggle="modal" data-target="#python-movie">Python Movie Website</h4>
-              <div>
-                <span class="project-skill">HTML</span>
-                <span class="project-skill">CSS</span>
-                <span class="project-skill">Python</span>
-              </div>
-              <p class="project-summary">
-                Server-side Python class to store a list of favorite movies, populated with info from IMDB
-                and YouTube API queries.  The class generates the HTML page from the queries.
-              </p>
-              <a class="btn btn-primary margin-top-10 github github-fork" href="https://github.com/ZGrauer/Movie-Website" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Fork me on GitHub">
-                <img src="./images/github.svg" alt="Fork on GitHub" class="btn-svg" /> Fork me
-              </a>
-            </article>
-          </div>
-          <!-- TODO: add future projects -->
-        </section>
+                <div class="row">
+                    <article class="col-md-4 pad-bottom text-center">
+                        <!-- Img hover overlay. Links to modal with additional info on project -->
+                        <div class="hov-img-container">
+                            <img class="img-responsive img-thumbnail modal-img" src="images/Item-Catalog-550.jpg" alt="Item Catalog Additional Info">
+                            <div class="hov-middle">
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <a href="#" class="btn btn-info" data-toggle="modal" data-target="#item-catalog" role="button">
+                                            More Info
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <a href="http://itemcatalog.us-west-2.elasticbeanstalk.com/" target="_blank" class="btn btn-primary margin-top-10" role="button">
+                                            View Site
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-      </main>
+                        <h4 class="highlight-color proj-title" data-toggle="modal" data-target="#item-catalog">Item Catalog</h4>
+                        <div>
+                            <span class="project-skill">OAuth 2.0</span>
+                            <span class="project-skill">Flask</span>
+                            <span class="project-skill">Python</span>
+                        </div>
+                        <p class="project-summary">
+                            Allows users to register and login using <a href="https://oauth.net/2/" target="_blank">OAuth 2.0</a> providers Google and Facebook so they can create lists of items in distinct categories. All categories and items are viewable
+                            but they can only be added to, edited, or deleted by the user who created them.
+                        </p>
+                        <a class="btn btn-primary margin-top-10 github github-fork" href="https://github.com/ZGrauer/Item-Catalog" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Fork me on GitHub">
+                            <img src="./images/github.svg" alt="Fork on GitHub" class="btn-svg" /> Fork me
+                        </a>
+                    </article>
+
+                    <article class="col-md-4 pad-bottom text-center">
+                        <!-- Img hover overlay. Links to modal with additional info on project -->
+                        <div class="hov-img-container">
+                            <img class="img-responsive img-thumbnail modal-img" src="images/Blog-Post-550.jpg" alt="Personal Blog in Python">
+                            <div class="hov-middle">
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <a href="#" class="btn btn-info" data-toggle="modal" data-target="#python-blog" role="button">
+                                            More Info
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <a href="https://zachs-blog-154712.appspot.com/" target="_blank" class="btn btn-primary margin-top-10" role="button">
+                                            View Site
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4 class="highlight-color proj-title" data-toggle="modal" data-target="#python-blog">Multi-User Blog</h4>
+                        <div>
+                            <span class="project-skill">Bootstrap</span>
+                            <span class="project-skill">Google App Engine</span>
+                            <span class="project-skill">Python</span>
+                        </div>
+                        <p class="project-summary">
+                            A personal blog for posting content with commenting and score system. Built using Python for the backend server, and runs on <a href="https://cloud.google.com/appengine/" target="_blank">Google App Engine</a>. The Python server
+                            uses <a href="http://jinja.pocoo.org/" target="_blank">jinja2</a> for HTML templating and stores all site data in <a href="https://cloud.google.com/datastore/docs/concepts/overview" target="_blank">Google Cloud Datastore</a>.
+                        </p>
+                        <a class="btn btn-primary margin-top-10 github github-fork" href="https://github.com/ZGrauer/Python-Blog" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Fork me on GitHub">
+                            <img src="./images/github.svg" alt="Fork on GitHub" class="btn-svg" /> Fork me
+                        </a>
+                    </article>
+
+                    <article class="col-md-4 pad-bottom text-center">
+                        <!-- Img hover overlay. Links to modal with additional info on project -->
+                        <div class="hov-img-container">
+                            <img class="img-responsive img-thumbnail modal-img" src="images/Movie-Site-550.jpg" alt="Python Movie Website">
+                            <div class="hov-middle">
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <a href="#" class="btn btn-info" data-toggle="modal" data-target="#python-movie" role="button">
+                                            More Info
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <a href="fresh_tomatoes.html" target="_blank" class="btn btn-primary margin-top-10" role="button">
+                                            View Site
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4 class="highlight-color proj-title" data-toggle="modal" data-target="#python-movie">Python Movie Website</h4>
+                        <div>
+                            <span class="project-skill">HTML</span>
+                            <span class="project-skill">CSS</span>
+                            <span class="project-skill">Python</span>
+                        </div>
+                        <p class="project-summary">
+                            Server-side Python class to store a list of favorite movies, populated with info from IMDB and YouTube API queries. The class generates the HTML page from the queries.
+                        </p>
+                        <a class="btn btn-primary margin-top-10 github github-fork" href="https://github.com/ZGrauer/Movie-Website" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Fork me on GitHub">
+                            <img src="./images/github.svg" alt="Fork on GitHub" class="btn-svg" /> Fork me
+                        </a>
+                    </article>
+                </div>
+                <!-- TODO: add future projects -->
+            </section>
+
+        </main>
     </div>
 
     <!-- Modals -->
@@ -177,25 +187,20 @@
                 </div>
                 <div class="modal-body">
                     <a href="fresh_tomatoes.html" target="_blank">
-                      <img class="modal-img img-responsive img-thumbnail center" src="./images/Movie-Site-800.jpg" alt="Python Movie Website " >
+                        <img class="modal-img img-responsive img-thumbnail center" src="./images/Movie-Site-800.jpg" alt="Python Movie Website ">
                     </a>
                     <div class="text-center">
-                      <span class="project-skill">HTML</span>
-                      <span class="project-skill">CSS</span>
-                      <span class="project-skill">Python</span>
+                        <span class="project-skill">HTML</span>
+                        <span class="project-skill">CSS</span>
+                        <span class="project-skill">Python</span>
                     </div>
                     <p class="project-summary">
-                      Server-side Python class to store a list of favorite movies,
-                      including box art imagery, movie trailer URL, and other info.
-                      The code generates a static web page allowing visitors to browse movies.
-                      Click the image above to view the generated page.
+                        Server-side Python class to store a list of favorite movies, including box art imagery, movie trailer URL, and other info. The code generates a static web page allowing visitors to browse movies. Click the image above to view the generated page.
                     </p>
-                    <p>The Python code uses APIs for IMDB and YouTube to pull movie information
-                      and trailers.  Only the movie title needs specified in a list for it to be
-                      added to the page.
+                    <p>The Python code uses APIs for IMDB and YouTube to pull movie information and trailers. Only the movie title needs specified in a list for it to be added to the page.
                     </p>
                     <p>
-                      GitHub Repository: <a href="https://github.com/ZGrauer/Movie-Website" target="_blank">https://github.com/ZGrauer/Movie-Website</a>
+                        GitHub Repository: <a href="https://github.com/ZGrauer/Movie-Website" target="_blank">https://github.com/ZGrauer/Movie-Website</a>
                     </p>
                 </div>
                 <div class="modal-footer">
@@ -212,34 +217,26 @@
                 </div>
                 <div class="modal-body">
                     <a href="https://zachs-blog-154712.appspot.com/" target="_blank">
-                      <img class="modal-img img-responsive img-thumbnail center" src="./images/Blog-550.jpg" alt="Python Movie Website " >
+                        <img class="modal-img img-responsive img-thumbnail center" src="./images/Blog-550.jpg" alt="Python Movie Website ">
                     </a>
                     <div class="text-center">
-                      <span class="project-skill">Bootstrap</span>
-                      <span class="project-skill">HTML</span>
-                      <span class="project-skill">Google App Engine</span>
-                      <span class="project-skill">Google Datastore</span>
-                      <span class="project-skill">Python</span>
+                        <span class="project-skill">Bootstrap</span>
+                        <span class="project-skill">HTML</span>
+                        <span class="project-skill">Google App Engine</span>
+                        <span class="project-skill">Google Datastore</span>
+                        <span class="project-skill">Python</span>
                     </div>
                     <p class="project-summary">
-                      A personal blog for posting content with commenting and score system.
-                      Built using Python for the backend, and runs on Google App Engine.
-                      The Python server uses jinja2 for HTML templating and stores all site
-                      data in Google Cloud Datastore.
+                        A personal blog for posting content with commenting and score system. Built using Python for the backend, and runs on Google App Engine. The Python server uses jinja2 for HTML templating and stores all site data in Google Cloud Datastore.
                     </p>
                     <p>
-                      Both the user cookies and user database info are hashed for security.
-                      SHA-256 is used along with HMAC and salts. Anyone can create an account
-                      on the site, and emails are optional. An account is needed to post articles,
-                      add comments, or like posts.
+                        Both the user cookies and user database info are hashed for security. SHA-256 is used along with HMAC and salts. Anyone can create an account on the site, and emails are optional. An account is needed to post articles, add comments, or like posts.
                     </p>
                     <p>
-                      Users can edit or delete only their own posts but can comment on any post.
-                      In addition, users can only like or dislike other users posts. They cannot like their own.
-                      The post's score can be viewed on the right side of the screen.
+                        Users can edit or delete only their own posts but can comment on any post. In addition, users can only like or dislike other users posts. They cannot like their own. The post's score can be viewed on the right side of the screen.
                     </p>
                     <p>
-                      GitHub Repository: <a href="https://github.com/ZGrauer/Python-Blog" target="_blank">https://github.com/ZGrauer/Python-Blog</a>
+                        GitHub Repository: <a href="https://github.com/ZGrauer/Python-Blog" target="_blank">https://github.com/ZGrauer/Python-Blog</a>
                     </p>
                 </div>
                 <div class="modal-footer">
@@ -256,29 +253,27 @@
                 </div>
                 <div class="modal-body">
                     <a href="http://itemcatalog.us-west-2.elasticbeanstalk.com/" target="_blank">
-                      <img class="modal-img img-responsive img-thumbnail center" src="./images/Item-Catalog-Item-550.jpg" alt="Item Catalog Website" >
+                        <img class="modal-img img-responsive img-thumbnail center" src="./images/Item-Catalog-Item-550.jpg" alt="Item Catalog Website">
                     </a>
                     <div class="text-center">
-                      <span class="project-skill">OAuth 2.0</span>
-                      <span class="project-skill">Flask</span>
-                      <span class="project-skill">Python</span>
-                      <span class="project-skill">HTML</span>
-                      <span class="project-skill">Bootstrap</span>
-                      <span class="project-skill">SQL</span>
+                        <span class="project-skill">OAuth 2.0</span>
+                        <span class="project-skill">Flask</span>
+                        <span class="project-skill">Python</span>
+                        <span class="project-skill">HTML</span>
+                        <span class="project-skill">Bootstrap</span>
+                        <span class="project-skill">SQL</span>
                     </div>
                     <p class="project-summary">
-                      Allows users to register and login using <a href="https://oauth.net/2/" target="_blank">OAuth 2.0</a> providers Google and Facebook so they
-                      can create lists of items in distinct categories. All categories and items are
-                      viewable but they can only be added to, edited, or deleted by the user who created them.
+                        Allows users to register and login using <a href="https://oauth.net/2/" target="_blank">OAuth 2.0</a> providers Google and Facebook so they can create lists of items in distinct categories. All categories and items are viewable
+                        but they can only be added to, edited, or deleted by the user who created them.
                     </p>
                     <p>
-                      The web server is written in Python using the <a href="http://flask.pocoo.org/" target="_blank">Flask</a> framework and
-                      the database uses <a href="https://sqlite.org/" target="_blank">SQLite</a>. The app includes a
-                      <abbr title="Representational State Transfer">RESTful</abbr> <abbr title="Application Programming Interface">API</abbr>
-                      that returns <abbr title="JavaScript Object Notation">JSON</abbr> objects representing items in the catalog based.
+                        The web server is written in Python using the <a href="http://flask.pocoo.org/" target="_blank">Flask</a> framework and the database uses <a href="https://sqlite.org/" target="_blank">SQLite</a>. The app includes a
+                        <abbr title="Representational State Transfer">RESTful</abbr> <abbr title="Application Programming Interface">API</abbr> that returns <abbr title="JavaScript Object Notation">JSON</abbr> objects representing items in the catalog
+                        based.
                     </p>
                     <p>
-                      GitHub Repository: <a href="https://github.com/ZGrauer/Item-Catalog" target="_blank">https://github.com/ZGrauer/Item-Catalog</a>
+                        GitHub Repository: <a href="https://github.com/ZGrauer/Item-Catalog" target="_blank">https://github.com/ZGrauer/Item-Catalog</a>
                     </p>
                 </div>
                 <div class="modal-footer">
@@ -288,5 +283,6 @@
         </div>
     </div>
     <!-- TODO: add future project modals -->
-  </body>
+</body>
+
 </html>

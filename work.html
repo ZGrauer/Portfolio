@@ -1,195 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Zach's Portfolio of Projects">
-    <title>Zach Grauerholz's Portfolio</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.min.css" >
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" defer></script>
-    <script src="js/bootstrap.min.js" defer></script>
-  </head>
-  <body>
-    <div class="container-fluid dark-bg-color">
-      <header>
-        <div class="row">
-          <div class="col-xs-12 text-right text-uppercase no-padding">
-            <picture id="header-img">
-              <source media="(min-width: 991px)" srcset="images/code_shorter_landscape.jpg" >
-              <img class="col-xs-12 img-responsive" src="images/code_shorter_port.jpg" alt="Image of code on computer screen" >
-            </picture>
-            <h1 id="name">Zachary Grauerholz</h1>
-            <h2 id="title">Developer</h2>
-          </div>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Zach's Portfolio of Projects">
+        <title>Zach Grauerholz's Portfolio</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
+        <link rel="stylesheet" href="css/style.min.css" >
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" defer></script>
+        <script src="js/bootstrap.min.js" defer></script>
+    </head>
+    <body>
+        <div class="container-fluid dark-bg-color">
+            <header>
+                <div class="row">
+                    <div class="col-xs-12 text-right text-uppercase no-padding">
+                        <picture id="header-img">
+                            <source media="(min-width: 991px)" srcset="images/code_shorter_landscape.jpg">
+                            <img class="col-xs-12 img-responsive" src="images/code_shorter_port.jpg" alt="Image of code on computer screen">
+                        </picture>
+                        <h1 id="name">Zachary Grauerholz</h1>
+                        <h2 id="title">Developer</h2>
+                    </div>
+                </div>
+            </header>
+
+            <nav class="navbar navbar-default">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav text-uppercase">
+                        <li><a href="index.html">Projects</a></li>
+                        <li class="active"><a href="#">Work Experience</a></li>
+                        <li><a href="education.html">Education &amp; Skills</a></li>
+                    </ul>
+                    <div class="navbar-right">
+                        <span class="badge linkedin-colors" id="linkedin-badge">
+                            <a href="https://www.linkedin.com/in/zachary-grauerholz-b2b516a5" target="_blank">
+                                <img src="./images/linkedin.svg" alt="Linkedin profile" class="nav-svg" />
+                            </a>
+                        </span>
+                        <span class="badge github-colors" id="github-badge">
+                            <a href="https://github.com/ZGrauer/" target="_blank">
+                                <img src="./images/github.svg" alt="GitHub profile" class="nav-svg" />
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </nav>
+
+            <main class="row format-main">
+                <div class="row content">
+                    <section class="col-xs-12">
+                        <h3 class="highlight-color page-heading">Work Histroy</h3>
+                        <div class="row">
+                            <article class="col-md-6">
+                                <h4 class="highlight-color section-title">Overview</h4>
+                                <p>
+                                    Technical Project Manager with 9+ years of telecommunications and software development experience with a BS in IT - Software. Efficient team player who streamlines processes and engineers automation tools to empower users, delivering measureable time
+                                    and monetary savings
+                                </p>
+                                <p>
+                                    I am a part of Sprint's Enhanced Services Sales Support team which maintains business customers' legacy voice products, such as toll-free, voice
+                                    <abbr title="Virtual Private Network">VPN</abbr>, and long distance. We also support <abbr title="Session Initiation Protocol">SIP</abbr> toll-free services by building complex customer routing and
+                                    <abbr title="Interactive voice response">IVRs</abbr>. I am a subject matter expert on complex toll-free routing for our
+                                    <abbr title="Time Division Multiplexing">TDM</abbr> voice platform and products.
+                                </p>
+                            </article>
+                            <article class="col-md-6">
+                                <h4 class="highlight-color section-title">Automation Program</h4>
+                                <p>
+                                    My biggest role is spearheading an automation program utilizing VBScript and <abbr title="Visual Basic for Applications">VBA</abbr> for 3 teams in Sprint. I automate processes in mainframe systems to reduce headcount and ensure
+                                    error free maintenance. The program saved at a minimum <em>3,950 hours</em> of work hours in the past year when compared to manual keying of orders.
+                                </p>
+                                <p>
+                                    Once <abbr title="User Acceptance Testing">UAT</abbr> testing of scripts is complete, they are disseminated from network storage to users via an update application I wrote in C#. The .NET application downloads any updated files
+                                    since their last update and ensures users files are up-to-date.
+                                </p>
+                            </article>
+                        </div>
+
+                        <article>
+                            <h4 class="highlight-color section-title">Successes</h4>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <h5 class="work-proj-title">Time Study Website</h5>
+                                    <p>
+                                        Developed an internal ASP.NET website employing
+                                        <abbr title="Windows, IIS, SQL Server, ASP.NET">WISA</abbr> stack, for work measurement and reporting, which management used to minimize human resource costs by <em>19%</em>.
+                                    </p>
+                                    <p>
+                                        I installed and configured SQL server, including database schema. IIS was configured to host the website and use Windows authentication. I developed the web forms app using ASP.NET. Reporting is downloaded by admins in *.CSV format and charts are available
+                                        using Chart.js.
+                                    </p>
+                                </div>
+                                <div class="col-lg-6">
+                                    <h5 class="work-proj-title">Windows 7 Migration</h5>
+                                    <p>
+                                        Oversaw the team’s migration to Windows 7, including the rewrite of legacy applications using the Microsoft .NET Framework in VB.Net and C#. This eliminated the cost of sourcing replacement software solutions and retain application functionality.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <h5 class="work-proj-title">SMS/800 Billing Reconciliation</h5>
+                                    <p>
+                                        Reduced company spend on toll-frees by <em>$528,000 per year</em> by analyzing mainframe data and systematically disconnecting unutilized numbers. By pulling and comparing reports from Sprint's mainframe and the industry
+                                        SMS/800 system of all toll-free numbers, I identified and released thousands of toll-free numbers reducing our monthly invoice for SMS/800.
+                                    </p>
+                                </div>
+                                <div class="col-lg-6">
+                                    <h5 class="work-proj-title">Automate Partial IVR Decommission</h5>
+                                    <p>
+                                        Completed the partial decommission of a Periphonics interactive toll-free platform <em>9 weeks</em> ahead of schedule by scripting mainframe transactions in VBScript, decreasing access and power costs by <em>53%</em> while
+                                        gaining spare parts.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <h5 class="work-proj-title">Billing Reconciliation Automation</h5>
+                                    <p>
+                                        Implemented a project that proactively identified and reconciled <em>$217,000</em> in incorrect monthly reoccurring charges on customers’ interactive toll-free accounts. This is performed yearly resulting in a better customer
+                                        experience. The project is completed using custom scripting I developed.
+                                    </p>
+                                </div>
+                                <div class="col-lg-6">
+                                    <h5 class="work-proj-title">Toll-Free NPA Releases</h5>
+                                    <p>
+                                        I also project manage the opening of new toll-free <abbr title="Number Planning Area">NPAs</abbr> (area codes). The <abbr title="Federal Communications Commission">FCC</abbr> controls when and how new area codes are opened.
+                                        I ensure Sprint follows special <abbr title="Federal Communications Commission">FCC</abbr> guidelines during the release window.
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">Job Histroy</div>
+                            <table class="table table-inverse">
+                                <tr class="highlight-color">
+                                    <th>Title</th>
+                                    <th class="table-hide-col">Company</th>
+                                    <th>Dates</th>
+                                </tr>
+                                <tr>
+                                    <td>Project/Program Manager</td>
+                                    <td class="table-hide-col">Sprint</td>
+                                    <td>Oct. 2008 - Present</td>
+                                </tr>
+                                <tr>
+                                    <td>Implementation Specialist</td>
+                                    <td class="table-hide-col">Sprint</td>
+                                    <td>Sep. 2007 - Oct. 2008</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </section>
+                </div>
+            </main>
         </div>
-      </header>
-
-      <nav class="navbar navbar-default">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-          </div>
-          <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav text-uppercase">
-              <li><a href="index.html">Projects</a></li>
-              <li class="active"><a href="#">Work Experience</a></li>
-              <li><a href="education.html">Education &amp; Skills</a></li>
-            </ul>
-          </div>
-      </nav>
-
-      <main class="row format-main">
-
-
-        <div class="row content">
-          <section class="col-md-9">
-            <h3 class="highlight-color page-heading">Work Histroy</h3>
-            <div class="row">
-              <article class="col-md-6">
-                <h4 class="highlight-color section-title">Overview</h4>
-          			<p>
-                  Technical Project Manager with 9+ years of telecommunications and
-                  software development experience with a BS in IT - Software. Efficient team player
-                  who streamlines processes and engineers automation tools to empower users,
-                  delivering measureable time and monetary savings
-                </p>
-                <p>
-          				I am a part of Sprint's Enhanced Services Sales Support team which maintains
-                  business customers' legacy voice products, such as toll-free, voice
-                  <abbr title="Virtual Private Network">VPN</abbr>, and long distance.
-                  We also support <abbr title="Session Initiation Protocol">SIP</abbr>
-                  toll-free services by building complex customer routing and
-                   <abbr title="Interactive voice response">IVRs</abbr>. I am a subject
-                   matter expert on complex toll-free routing for our
-                  <abbr title="Time Division Multiplexing">TDM</abbr> voice platform and products.
-          			</p>
-              </article>
-              <article class="col-md-6">
-                <h4 class="highlight-color section-title">Automation Program</h4>
-          			<p>
-          				My biggest role is spearheading an automation program utilizing VBScript
-                  and <abbr title="Visual Basic for Applications">VBA</abbr> for 3 teams in Sprint.
-                  I automate processes in mainframe systems to reduce headcount and ensure error
-                  free maintenance. The program saved at a minimum <em>3,950 hours</em> of work hours
-                  in the past year when compared to manual keying of orders.
-          			</p>
-          			<p>
-          				Once <abbr title="User Acceptance Testing">UAT</abbr> testing of scripts
-                  is complete, they are disseminated from network storage to users via an update
-                  application I wrote in C#.  The .NET application downloads any updated
-                  files since their last update and ensures users files are up-to-date.
-          			</p>
-              </article>
-            </div>
-
-            <article>
-              <h4 class="highlight-color section-title">Successes</h4>
-              <div class="row">
-                <div class="col-lg-6">
-                  <h5 class="work-proj-title">Time Study Website</h5>
-                  <p>
-            				Developed an internal ASP.NET website employing
-                    <abbr title="Windows, IIS, SQL Server, ASP.NET">WISA</abbr> stack, for
-                    work measurement and reporting, which management used to minimize
-                    human resource costs by <em>19%</em>.
-            			</p>
-                  <p>
-            				I installed and configured SQL server, including database schema. IIS
-                    was configured to host the website and use Windows authentication. I developed
-                    the web forms app using ASP.NET. Reporting is downloaded by admins
-                    in *.CSV format and charts are available using Chart.js.
-            			</p>
-                </div>
-                <div class="col-lg-6">
-                  <h5 class="work-proj-title">Windows 7 Migration</h5>
-                    <p>
-              				Oversaw the team’s migration to Windows 7, including the rewrite of
-                      legacy applications using the Microsoft .NET Framework in VB.Net and C#.
-                      This eliminated the cost of sourcing replacement software solutions and
-                      retain application functionality.
-              			</p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-6">
-                  <h5 class="work-proj-title">SMS/800 Billing Reconciliation</h5>
-                  <p>
-                    Reduced company spend on toll-frees by <em>$528,000 per year</em> by analyzing
-                    mainframe data and systematically disconnecting unutilized numbers. By pulling
-                    and comparing reports from Sprint's mainframe and the industry SMS/800
-                    system of all toll-free numbers, I identified and released thousands of
-                    toll-free numbers reducing our monthly invoice for SMS/800.
-            			</p>
-                </div>
-                <div class="col-lg-6">
-                  <h5 class="work-proj-title">Automate Partial IVR Decommission</h5>
-                  <p>
-            				Completed the partial decommission of a Periphonics interactive toll-free
-                    platform <em>9 weeks</em> ahead of schedule by scripting mainframe
-                    transactions in VBScript, decreasing access and power costs by <em>53%</em>
-                    while gaining spare parts.
-            			</p>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-6">
-                  <h5 class="work-proj-title">Billing Reconciliation Automation</h5>
-                    <p>
-              				Implemented a project that proactively identified and reconciled <em>$217,000</em> in
-                      incorrect monthly reoccurring charges on customers’ interactive toll-free accounts.
-                      This is performed yearly resulting in a better customer experience. The project is
-                      completed using custom scripting I developed.
-              			</p>
-                </div>
-                <div class="col-lg-6">
-                  <h5 class="work-proj-title">Toll-Free NPA Releases</h5>
-                  <p>
-            				I also project manage the opening of new toll-free <abbr title="Number Planning Area">NPAs</abbr> (area codes).
-            				The <abbr title="Federal Communications Commission">FCC</abbr> controls when and how new area codes are opened.
-            				I ensure Sprint follows special <abbr title="Federal Communications Commission">FCC</abbr> guidelines during the release window.
-            			</p>
-                </div>
-              </div>
-            </article>
-            <div class="panel panel-default">
-              <div class="panel-heading">Job Histroy</div>
-              <table class="table table-inverse">
-                <tr class="highlight-color">
-                  <th>Title</th>
-                  <th class="table-hide-col">Company</th>
-                  <th>Dates</th>
-                </tr>
-                <tr>
-                  <td>Project/Program Manager</td>
-                  <td class="table-hide-col">Sprint</td>
-                  <td>Oct. 2008 - Present</td>
-                </tr>
-                <tr>
-                  <td>Implementation Specialist</td>
-                  <td class="table-hide-col">Sprint</td>
-                  <td>Sep. 2007 - Oct. 2008</td>
-                </tr>
-              </table>
-            </div>
-      		</section>
-
-          <aside class="col-md-3 contact-info">
-      			<h3 class="highlight-color section-title page-heading">Contact Info</h3>
-            <a class="btn btn-primary linkedin" href="https://www.linkedin.com/in/zachary-grauerholz-b2b516a5" target="_blank">
-              <span><img src="./images/linkedin.svg" alt="GitHub" class="btn-svg" /> Linkedin</span>
-            </a>
-            <a class="btn btn-primary github" href="https://github.com/ZGrauer/" target="_blank">
-              <span><img src="./images/github.svg" alt="GitHub" class="btn-svg" /> GitHub</span>
-            </a>
-      		</aside>
-        </div>
-      </main>
-    </div>
-
-  </body>
+    </body>
 </html>
