@@ -46,7 +46,7 @@ $ ^CTerminate batch job (Y/N)? Y
 
 ### Todos
 - [X] add 2 additional projects, replacing Project 2 and Project 3
-- [ ] hover effect for project thumbnail
+- [X] hover effect for project thumbnail
 - [X] Zocial GitHub and LinkedIn buttons in Contact aside
 
 ### License
