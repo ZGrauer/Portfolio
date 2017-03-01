@@ -48,6 +48,7 @@ $ ^CTerminate batch job (Y/N)? Y
 - [X] add 2 additional projects, replacing Project 2 and Project 3
 - [X] hover effect for project thumbnail
 - [X] Zocial GitHub and LinkedIn buttons in Contact aside
+- [ ] Add contact form/method
 
 ### License
 GNU GENERAL PUBLIC LICENSE
