@@ -125,6 +125,43 @@
                     <article class="col-md-4 pad-bottom text-center">
                         <!-- Img hover overlay. Links to modal with additional info on project -->
                         <div class="hov-img-container">
+                            <img class="img-responsive img-thumbnail modal-img" src="images/Recipe-Book-800.png" alt="Recipe Book Angular App">
+                            <div class="hov-middle">
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <a href="#" class="btn btn-info" data-toggle="modal" data-target="#recipe-book" role="button">
+                                            More Info
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-xs-12">
+                                        <a href="#" target="_blank" class="btn btn-primary margin-top-10" role="button" disabled>
+                                            View Site
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <h4 class="highlight-color proj-title" data-toggle="modal" data-target="#recipe-book">Recipe Book</h4>
+                        <div>
+                            <span class="project-skill">Angular 2</span>
+                            <span class="project-skill">TypeScript</span>
+                            <span class="project-skill">NoSQL</span>
+                        </div>
+                        <p class="project-summary">
+                            A responsive Single Page Application (SPA), written in <a href="https://angular.io/" target="_blank">Angular 2</a>, to store personal recipes. The Recipe Book website allows recipes to be added, edited, or deleted; individual
+                            ingredients are also managed. Images of the recipe can be specified as a URL. Recipe ingredients can be added to a separate Shopping List page. Items can be added, edited, or deleted on the Shopping List page. All of this data
+                            can be stored in a <a href="https://firebase.google.com/docs/database/" target="_blank">Firebase database</a> and retrieved later.
+                        </p>
+                        <a class="btn btn-primary margin-top-10 github github-fork" href="https://github.com/ZGrauer/recipe-book" target="_blank" data-toggle="tooltip" data-placement="bottom" title="Fork me on GitHub">
+                            <img src="./images/github.svg" alt="Fork on GitHub" class="btn-svg" /> Fork me
+                        </a>
+                    </article>
+
+                    <article class="col-md-4 pad-bottom text-center">
+                        <!-- Img hover overlay. Links to modal with additional info on project -->
+                        <div class="hov-img-container">
                             <img class="img-responsive img-thumbnail modal-img" src="images/Item-Catalog-550.jpg" alt="Item Catalog Additional Info">
                             <div class="hov-middle">
                                 <div class="row">
@@ -158,7 +195,9 @@
                             <img src="./images/github.svg" alt="Fork on GitHub" class="btn-svg" /> Fork me
                         </a>
                     </article>
+                </div>
 
+                <div class="row">
                     <article class="col-md-4 pad-bottom text-center">
                         <!-- Img hover overlay. Links to modal with additional info on project -->
                         <div class="hov-img-container">
@@ -167,15 +206,15 @@
                                 <div class="row">
                                     <div class="col-xs-12">
                                         <a href="#" class="btn btn-info" data-toggle="modal" data-target="#python-blog" role="button">
-                                            More Info
-                                        </a>
+                                                                More Info
+                                                            </a>
                                     </div>
                                 </div>
                                 <div class="row">
                                     <div class="col-xs-12">
                                         <a href="https://zachs-blog-154712.appspot.com/" target="_blank" class="btn btn-primary margin-top-10" role="button">
-                                            View Site
-                                        </a>
+                                                                View Site
+                                                            </a>
                                     </div>
                                 </div>
                             </div>
@@ -194,9 +233,7 @@
                             <img src="./images/github.svg" alt="Fork on GitHub" class="btn-svg" /> Fork me
                         </a>
                     </article>
-                </div>
 
-                <div class="row">
                     <article class="col-md-4 pad-bottom text-center">
                         <!-- Img hover overlay. Links to modal with additional info on project -->
                         <div class="hov-img-container">
@@ -231,6 +268,7 @@
                             <img src="./images/github.svg" alt="Fork on GitHub" class="btn-svg" /> Fork me
                         </a>
                     </article>
+
                 </div>
                 <!-- TODO: add future projects -->
             </section>
@@ -367,10 +405,45 @@
                         <a href="https://www.mediawiki.org/wiki/API:Main_page" target="_blank">Wikipedia</a> is loaded asynchronously.
                     </p>
                     <p>
-                        <a href="http://knockoutjs.com/" target="_blank">Knockoutjs 3.4.1</a> is used for data binding, auto-refreshing the UI, and templating. All JavaScript code is organized using the <abbr title="Model–View–View-Model">MVVM</abbr> pattern. <a href="https://jquery.com/" target="_blank">jQuery 3.1.1</a>                        is required for <a href="http://getbootstrap.com/components/" target="_blank">Bootstrap</a> components and is used for AJAX API queries.
+                        <a href="http://knockoutjs.com/" target="_blank">Knockoutjs 3.4.1</a> is used for data binding, auto-refreshing the UI, and templating. All JavaScript code is organized using the <abbr title="Model–View–View-Model">MVVM</abbr>                        pattern. <a href="https://jquery.com/" target="_blank">jQuery 3.1.1</a> is required for <a href="http://getbootstrap.com/components/" target="_blank">Bootstrap</a> components and is used for AJAX API queries.
                     </p>
                     <p>
                         GitHub Repository: <a href="https://github.com/ZGrauer/Vacation-Planner" target="_blank">https://github.com/ZGrauer/Vacation-Planner</a>
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="recipe-book" tabindex="-1" role="dialog" aria-labelledby="mapModalLabel" aria-hidden="true">
+        <div class="modal-dialog dark-color">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="mapModalLabel">Recipe Book</h4>
+                </div>
+                <div class="modal-body">
+                    <a href="#" target="_blank">
+                        <img class="modal-img img-responsive img-thumbnail center" src="./images/Recipe-Book-800.png" alt="Recipe Book Angular 2 App">
+                    </a>
+                    <div class="text-center">
+                        <span class="project-skill">Angular 2</span>
+                        <span class="project-skill">TypeScript</span>
+                        <span class="project-skill"><abbr title="Model–View–View-Model">MVVM</abbr> Pattern</span>
+                        <span class="project-skill">Bootstrap</span>
+                        <span class="project-skill">NoSQL</span>
+                    </div>
+                    <p class="project-summary">
+                        A responsive Single Page Application (SPA), written in <a href="https://angular.io/" target="_blank">Angular 2</a>, to store personal recipes. The Recipe Book website allows recipes to be added, edited, or deleted; individual
+                        ingredients are also managed. Images of the recipe can be specified as a URL. Recipe ingredients can be added to a separate Shopping List page. Items can be added, edited, or deleted on the Shopping List page. All of this data
+                        can be stored in a <a href="https://firebase.google.com/docs/database/" target="_blank">Firebase database</a> and retrieved later.
+                    </p>
+                    <p>
+                        This project was generated with Angular CLI version 1.0.0-beta.32.3. The HTML/CSS templates utilize <a href="http://getbootstrap.com/" target="_blank">Bootstrap version 3.3.7</a> for styling.
+                    </p>
+                    <p>
+                        GitHub Repository: <a href="https://github.com/ZGrauer/recipe-book" target="_blank">https://github.com/ZGrauer/recipe-book</a>
                     </p>
                 </div>
                 <div class="modal-footer">
